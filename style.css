@@ -387,14 +387,31 @@ body {
         padding: 10px;
     }
     .nav {
-        padding: 12px 20px;
+        padding: 8px 16px;
         flex-wrap: wrap;
     }
+    .logo img {
+        height: 28px;
+    }
+    .nav-right {
+        gap: 16px;
+    }
     .nav-menu {
-        display: none;
+        gap: 12px;
+    }
+    .nav-menu a {
+        font-size: 14px;
     }
     .nav-buttons {
-        gap: 10px;
+        gap: 8px;
+    }
+    .btn-signup {
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 20px;
+    }
+    .btn-login {
+        font-size: 14px;
     }
     .main-content {
         flex-direction: column;
@@ -459,6 +476,29 @@ body {
 
 /* Small Mobile */
 @media (max-width: 480px) {
+    .nav {
+        padding: 6px 12px;
+    }
+    .logo img {
+        height: 24px;
+    }
+    .nav-right {
+        gap: 12px;
+    }
+    .nav-menu {
+        gap: 8px;
+    }
+    .nav-menu a {
+        font-size: 12px;
+    }
+    .btn-signup {
+        padding: 5px 10px;
+        font-size: 12px;
+        border-radius: 18px;
+    }
+    .btn-login {
+        font-size: 12px;
+    }
     .unlock-text {
         font-size: 32px;
     }
